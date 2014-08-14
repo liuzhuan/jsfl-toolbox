@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dialog buttons="accept, cancel" title="批量转换影片剪辑">
+    <label value="前缀"/>
+    <textbox id="prefixName"/>
+    <label value="下标起始值:"/>
+    <textbox id="start" value="0"/>
+</dialog>

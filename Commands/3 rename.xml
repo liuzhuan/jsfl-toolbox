@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dialog buttons="accept, cancel" title="批量重命名">
+    <label value="前缀"/>
+    <textbox id="prefixName"/>
+    <radiogroup id="order">
+        <radio label="正常排序" value="normal" selected="true"/>
+        <radio label="逆向排序" value="reverse"/>
+    </radiogroup>
+    <label value="Start From:"/>
+    <textbox id="start" value="0"/>
+</dialog>
