@@ -5,7 +5,7 @@ var selection = doc.selection;
 doc.selectNone();
 fl.trace(selection.length);
 
-var uxi = doc.xmlPanel(fl.configURI + "Commands/convertSymbol.xml");
+var uxi = doc.xmlPanel(fl.configURI + "Commands/4 convertSymbol.xml");
 var prefix = "mc_";
 var start = 0;
 if (uxi.dismiss == "accept") {

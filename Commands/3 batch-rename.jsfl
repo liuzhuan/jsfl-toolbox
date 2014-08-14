@@ -4,7 +4,7 @@ var doc = fl.getDocumentDOM();
 var selection = doc.selection;
 fl.trace("There're " + selection.length + " elements");
 
-var uxi = doc.xmlPanel(fl.configURI + "Commands/rename.xml");
+var uxi = doc.xmlPanel(fl.configURI + "Commands/3 rename.xml");
 var prefix = "mc_";
 var start = 0;
 if (uxi.dismiss == "accept") {
